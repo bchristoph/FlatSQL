@@ -57,12 +57,9 @@ public class DatabaseTools {
 		this.registerDriver();
 		
 		this.host = "localhost";
-//		this.host = "188.40.201.159";
-//		this.host = "46.38.233.251";
-//		this.host = "46.38.250.53";
-		this.user = "iKnowLibsql1";
-		this.passwd = "cnv1k7j6";
-		this.dbName = "iKnowLibsql1";
+		this.user = "<user>";
+		this.passwd = "<passwd>";
+		this.dbName = "<dbname>";
 		
 		this.clear();
 	}
@@ -96,9 +93,9 @@ public class DatabaseTools {
 	}
 	
 	public void useReutersRcv1() {
-		this.user = "iKnowLibsql2";
-		this.passwd = "cnv1k7j6";
-		this.dbName = "iKnowLibsql2";
+		this.user = "<user>";
+		this.passwd = "<passwd>";
+		this.dbName = "<dbname>";
 	}
 
 	private void registerDriver() {
